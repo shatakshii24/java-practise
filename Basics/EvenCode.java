@@ -8,13 +8,20 @@ public class EvenCode{
       }
    }
    public static void main(String[] args){
-        int myNum = 7;
-        boolean result = isEven(myNum);
-        if(result){
-           System.out.println("The number is even");
-        }
-        else{
-           System.out.println("The number is odd");
-        }
+      //   int myNum = 7;
+      //   boolean result = isEven(myNum);
+      //   if(result){
+      //      System.out.println("The number is even");
+      //   }
+      //   else{
+      //      System.out.println("The number is odd");
+      //   }
+
+      if(isEven(23)){
+         System.out.println("The number is even");
+      }
+      else{
+         System.out.println("The number is odd");
+      }
    }
 }

@@ -32,14 +32,14 @@ public class Calculation{
          }
     }
     public static void main(String[] args){
-         int position1 = calculateMarks(92);
-         int position2 = calculateMarks(80);
-         int position3 = calculateMarks(55);
-         int position4 = calculateMarks(40);
-         displayPosition("Joey" , position1);
-         displayPosition("Chandler" , position2);
-         displayPosition("Monica" , position3);
-         displayPosition("Ross" , position4);
+         int pa = calculateMarks(92);
+         int pb = calculateMarks(80);
+         int pc = calculateMarks(55);
+         int pd = calculateMarks(40);
+         displayPosition("Joey" , pa);
+         displayPosition("Chandler" , pb);
+         displayPosition("Monica" , pc);
+         displayPosition("Ross" , pd);
     }
 }
          
